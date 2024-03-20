@@ -13,8 +13,7 @@ export default function Home() {
       <People />
       <Features />
       <Business />
-      <Payment />
-      <Pricing />
+      <Payment /> 
     </main>
   )
 }
