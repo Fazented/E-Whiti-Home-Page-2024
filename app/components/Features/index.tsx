@@ -10,19 +10,19 @@ interface datatype {
 const Aboutdata: datatype[] = [
     {
         imgSrc: "/assets/features/time.svg",
-        heading: "Cash collection",
-        paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa',
+        heading: "Engaging",
+        paragraph: 'Excite students with interactive games and downloadable worksheets, enhancing their learning experience. Our platform fosters engagement and curiosity, providing valuable resources for exploring climate change and the Arctic',
     },
     {
         imgSrc: "/assets/features/signal.svg",
         heading: "Insights",
-        paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa',
+        paragraph: 'Gain useful insights into each one of your enrolled students like their course completion, test scores, and time spent on each module. With customizable marking guides, teachers can easily evaluate student work and provide targeted feedback.',
 
     },
     {
         imgSrc: "/assets/features/dollar.svg",
-        heading: "Payment",
-        paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa',
+        heading: "100% Free",
+        paragraph: 'Our platform is completely free, with no hidden costs or subscription fees. Our goal is to make learning about climate change and the Arctic accessible to teachers and students across New Zealand.',
 
     }
 ]
@@ -32,7 +32,7 @@ const Features = () => {
         <div className="bg-babyblue" id="features">
             <div className="mx-auto max-w-2xl py-20 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <h3 className="text-4xl sm:text-5xl font-semibold text-black text-center my-10">Amazing Features.</h3>
-                <h5 className="text-black opacity-60 text-lg font-normal text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque <br /> laudantium, totam rem aperiam, eaque ipsa quae ab.</h5>
+                <h5 className="text-black opacity-60 text-lg font-normal text-center">Transform your classroom today with ArcticEd's innovative platform, enhancing climate education through interactive features. <br /> </h5>
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-4 lg:gap-x-8 mt-10'>
                     {Aboutdata.map((item, i) => (
