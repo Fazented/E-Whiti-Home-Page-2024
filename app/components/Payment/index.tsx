@@ -13,10 +13,12 @@ const Payment = () => {
                     </div>
 
                     <div className='col-span-6 flex flex-col justify-center mb-32'>
-                        <h2 className='text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-143'>Now its time to change payment method.</h2>
-                        <h3 className='text-black text-lg font-normal text-center lg:text-start lh-173 opacity-75 pt-3'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.</h3>
-                        <Link href={'/'} className="text-electricblue text-lg font-medium flex gap-2 pt-4 mx-auto lg:mx-0">
-                            Learn more <Image src="/assets/people/arrow-right.svg" alt="arrow-right" width={24} height={24} />
+                        <h2 className='text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-143'>Assign the courses you want.</h2>
+                        <h3 className='text-black text-lg font-normal text-center lg:text-start lh-173 opacity-75 pt-3'>Pick from our dozens of carefully curated lesson plans, or make your own! All lesson progress can be tracked on the Teacher Dashboard.</h3>
+                        <Link href={'/'} className="text-lg font-medium flex gap-2 pt-4 mx-auto lg:mx-0">
+                            <span className='text-black text-lg font-normal opacity-75'>What are you waiting for?</span>
+                            <span style={{ color: 'blue' }}>Sign Up</span>
+                            <Image src="/assets/people/arrow-right.svg" alt="arrow-right" width={24} height={24} style={{ color: 'blue' }} />
                         </Link>
                     </div>
 
