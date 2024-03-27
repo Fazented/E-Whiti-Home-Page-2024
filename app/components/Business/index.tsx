@@ -10,7 +10,7 @@ const Business = () => {
 
                 <div className='col-span-6 flex flex-col justify-center'>
                     <h2 className='text-midnightblue text-4xl sm:text-5xl font-semibold text-center lg:text-start lh-143'>Get detailed insights for all your students.</h2>
-                    <h3 className='text-black text-lg font-normal text-center lg:text-start lh-173 opacity-75 pt-3'>ArcticEd collates insights into each one of your students like their course completion, test scores, and time spent on each lesson.</h3>
+                    <h3 className='text-black text-lg font-normal text-center lg:text-start lh-173 opacity-75 pt-3'>AntarcticEd collates insights into each one of your students like their course completion, test scores, and time spent on each lesson.</h3>
                     <Link href={'/'} className="text-electricblue text-lg font-medium flex gap-2 pt-4 mx-auto lg:mx-0">
                         Learn more <Image src="/assets/people/arrow-right.svg" alt="arrow-right" width={24} height={24} />
                     </Link>

@@ -22,7 +22,7 @@ const Aboutdata: datatype[] = [
     {
         imgSrc: "/assets/features/dollar.svg",
         heading: "100% Free",
-        paragraph: 'Our platform is completely free, with no hidden costs or subscription fees. Our goal is to make learning about climate change and the Arctic accessible to teachers and students across New Zealand.',
+        paragraph: 'Our platform is completely free, with no hidden costs or subscription fees. Our goal is to make learning about climate change and the Antarctic accessible to teachers and students across New Zealand.',
 
     }
 ]
